@@ -53,7 +53,7 @@ languages:
             url: posts
           - name: About Me
             url: posts/aboutme/aboutme/
-          - name: Splatoon Glory(X)
+          - name: Splatoon Glory(并不)
             url: "https://stat.ink/@Claire808/spl3"
 
 
