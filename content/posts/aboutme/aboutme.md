@@ -23,7 +23,7 @@ title: 'Aboutme'
 4️⃣ **加州迪士尼**  
 2024年3月1日，1次，但狂刷5次过山车成功摆拍  
 
-5️⃣ **Georgetown University (BSc in Public Policy)**  
+5️⃣ **Georgetown University (master of public policy)**  
 2022年8月 - 2024年5月16日 | 美国，华盛顿  
 
 6️⃣ **香港迪士尼**  
