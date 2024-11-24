@@ -44,10 +44,10 @@ languages:
       profileMode:
         enabled: true
         title: Li Zehui
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl: "https://raw.githubusercontent.com/claregogo/claregogo.github.io/main/%E5%B0%81%E9%9D%A2.JPG"
         # imageWidth: 120
         # imageHeight: 120
-        subtitle: "Moset people think i'm nomal, until they start talking disney with me."
+        subtitle: "Most people think I'm nomal, until they start talking Disney with me."
         buttons:
           - name: Thought Bubbles
             url: posts
