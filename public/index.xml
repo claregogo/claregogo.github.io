@@ -12,8 +12,51 @@
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
-    <lastBuildDate>Sun, 24 Nov 2024 19:04:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 20:05:01 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/claregogo/claregogo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/claregogo/claregogo.github.io/posts/dailypython/hugo/</link>
+      <pubDate>Sun, 24 Nov 2024 20:05:01 +0800</pubDate>
+      <guid>http://localhost:1313/claregogo/claregogo.github.io/posts/dailypython/hugo/</guid>
+      <description>&lt;p&gt;以下是使用Markdown格式排版的Hugo制作网站教程：&lt;/p&gt;
+&lt;h1 id=&#34;简单的hugo制作网站教程---mac电脑&#34;&gt;简单的Hugo制作网站教程 - Mac电脑&lt;/h1&gt;
+&lt;h2 id=&#34;1-下载hugo&#34;&gt;1. 下载Hugo&lt;/h2&gt;
+&lt;p&gt;根据&lt;a href=&#34;https://gohugo.io/installation/macos/&#34;&gt;官网&lt;/a&gt;教程下载Hugo。&lt;/p&gt;
+&lt;h2 id=&#34;2-创建文件目录&#34;&gt;2. 创建文件目录&lt;/h2&gt;
+&lt;p&gt;打开终端（cmd+空格）并输入以下命令创建文件目录：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir ~/Desktop/MyFolder
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/Desktop/MyFolder
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-创建hugo站点&#34;&gt;3. 创建Hugo站点&lt;/h2&gt;
+&lt;p&gt;在当前文件夹中创建一个新的Hugo站点：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site MyFreshWebsite --format yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;将 &lt;code&gt;MyFreshWebsite&lt;/code&gt; 替换为你的网站名称。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;4-添加主题&#34;&gt;4. 添加主题&lt;/h2&gt;
+&lt;p&gt;将PaperMod主题添加到你的站点中：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;将上面的URL替换为你选择的主题的URL。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;5-配置站点&#34;&gt;5. 配置站点&lt;/h2&gt;
+&lt;p&gt;按照&lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/content/archives.md?plain=1&#34;&gt;PaperMod的示例配置&lt;/a&gt;修改自己的 &lt;code&gt;config.yaml&lt;/code&gt; 配置文件。&lt;/p&gt;
+&lt;h2 id=&#34;6-github部署&#34;&gt;6. GitHub部署&lt;/h2&gt;
+&lt;h3 id=&#34;新建一个github仓库&#34;&gt;新建一个GitHub仓库&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新建一个仓库，仓库名称应该是 &lt;code&gt;&amp;lt;username.github.io&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;初始化git&#34;&gt;初始化Git&lt;/h3&gt;
+&lt;p&gt;在站点目录中执行以下命令初始化Git仓库：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote add origin https://github.com/yourusername/mywebsite.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;替换为你自己的GitHub用户名和仓库地址。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Aboutme</title>
       <link>http://localhost:1313/claregogo/claregogo.github.io/posts/aboutme/aboutme/</link>
@@ -24,32 +67,19 @@
 &lt;ul&gt;
 &lt;li&gt;📞 18811532808&lt;/li&gt;
 &lt;li&gt;📧 &lt;a href=&#34;mailto:lizehui_joy@163.com&#34;&gt;lizehui_joy@163.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🎓 2024 应届毕业生&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;教育背景&#34;&gt;教育背景&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;乔治城大学&lt;/strong&gt; (U.S.News 23)&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;乔治城大学&lt;/strong&gt;
 &lt;strong&gt;公共政策 - 硕士&lt;/strong&gt;&lt;br&gt;
 2022年8月 - 2024年5月 | 美国，华盛顿&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;北京体育大学&lt;/strong&gt;&lt;br&gt;
 &lt;strong&gt;体育经济与管理 - 学士&lt;/strong&gt;&lt;br&gt;
 2018年8月 - 2022年6月 | 中国，北京&lt;/p&gt;
 &lt;h2 id=&#34;实习经历&#34;&gt;实习经历&lt;/h2&gt;
-&lt;h3 id=&#34;字节跳动有限公司北京-hrbp-实习生&#34;&gt;字节跳动有限公司（北京）| HRBP 实习生&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;参与产品负责人招聘，分析招聘痛点，每周编制简历筛选报告。&lt;/li&gt;
-&lt;li&gt;组织300余人参加的大型团建活动，设计团建游戏、采购奖品、统筹活动进度。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;首都知识产权服务业协会北京-研究员&#34;&gt;首都知识产权服务业协会（北京）| 研究员&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;运用 Excel 汇总分析2w+数据，得出北京市商标基本数据情况。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;字节跳动有限公司（北京）| HRBP 实习生&lt;/p&gt;
+&lt;p&gt;首都知识产权服务业协会（北京）| 研究员&lt;/p&gt;
 &lt;h2 id=&#34;学生工作&#34;&gt;学生工作&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;乔治城大学（华盛顿）&lt;/strong&gt; | &lt;strong&gt;“数据科学与公共政策”课程&lt;/strong&gt; | 教学助理&lt;br&gt;
-2024年1月 - 2024年5月&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;协助教授编写、测试课程习题与作业。&lt;/li&gt;
-&lt;li&gt;设计、组织7次 R 项目实践活动。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;乔治城大学（华盛顿）&lt;/strong&gt; | &lt;strong&gt;“数据科学与公共政策”课程&lt;/strong&gt; | 教学助理&lt;/p&gt;
 &lt;h2 id=&#34;工作技能&#34;&gt;工作技能&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;办公软件&lt;/strong&gt;: 熟练掌握 R、python、Excel、PPT、Word。&lt;/li&gt;
