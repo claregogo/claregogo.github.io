@@ -26,6 +26,9 @@ languages:
       series: series
     menu:
       main:
+        - name: Home
+          url: /
+          weight: 4
         - name: Archive
           url: archives
           weight: 5
@@ -37,7 +40,7 @@ languages:
           weight: 10
         - name: github
           url: https://github.com/claregogo
-
+          weight: 20
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
       languageAltTitle: French

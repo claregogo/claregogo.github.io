@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title></title>
-    <link>http://localhost:1313/claregogo/claregogo.github.io/</link>
-    <description>Recent content on </description>
+    <title>Tutorial on </title>
+    <link>http://localhost:1313/claregogo/claregogo.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on </description>
     <image>
       <title></title>
       <url>http://localhost:1313/claregogo/claregogo.github.io/images/papermod-cover.png</url>
@@ -13,7 +13,7 @@
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Sun, 24 Nov 2024 20:05:01 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/claregogo/claregogo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/claregogo/claregogo.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/claregogo/claregogo.github.io/posts/tutorial/dailypython/hugo/</link>
@@ -56,37 +56,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin main
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;替换为你自己的GitHub用户名和仓库地址。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Aboutme</title>
-      <link>http://localhost:1313/claregogo/claregogo.github.io/posts/aboutme/aboutme/</link>
-      <pubDate>Sun, 24 Nov 2024 19:04:08 +0800</pubDate>
-      <guid>http://localhost:1313/claregogo/claregogo.github.io/posts/aboutme/aboutme/</guid>
-      <description>&lt;h1 id=&#34;李泽慧&#34;&gt;李泽慧&lt;/h1&gt;
-&lt;h1 id=&#34;教育背景&#34;&gt;教育背景&lt;/h1&gt;
-&lt;p&gt;0️⃣ &lt;strong&gt;上海迪士尼&lt;/strong&gt;&lt;br&gt;
-2018年 | 中国，上海&lt;/p&gt;
-&lt;p&gt;1️⃣ &lt;strong&gt;北京体育大学&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;体育经济与管理专业 - 学士&lt;/em&gt;&lt;br&gt;
-2018年8月 - 2022年6月 | 中国，北京&lt;/p&gt;
-&lt;p&gt;2️⃣ &lt;strong&gt;奥兰多迪士尼&lt;/strong&gt;&lt;br&gt;
-2023年1月1日，勇闯4次，假期全勤，博士到手 | 美国，奥兰多&lt;/p&gt;
-&lt;p&gt;3️⃣ &lt;strong&gt;巴黎迪士尼&lt;/strong&gt;&lt;br&gt;
-2023年7月20日，两次 | 法国，巴黎&lt;/p&gt;
-&lt;p&gt;4️⃣ &lt;strong&gt;加州迪士尼&lt;/strong&gt;&lt;br&gt;
-2024年3月1日，1次，但狂刷5次过山车成功摆拍&lt;/p&gt;
-&lt;p&gt;5️⃣ &lt;strong&gt;Georgetown University (master of public policy)&lt;/strong&gt;&lt;br&gt;
-2022年8月 - 2024年5月16日 | 美国，华盛顿&lt;/p&gt;
-&lt;p&gt;6️⃣ &lt;strong&gt;香港迪士尼&lt;/strong&gt;&lt;br&gt;
-2024年6月18日 | 中国，香港&lt;/p&gt;
-&lt;p&gt;7️⃣ &lt;strong&gt;东京迪士尼&lt;/strong&gt;&lt;br&gt;
-2024年6月26日 | 日本，东京&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;工作技能&#34;&gt;工作技能&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;办公软件&lt;/strong&gt;: Excel、PPT、Word。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;编程语言&lt;/strong&gt;: python（熟练）、R (熟练)，Stata (熟练)，GitHub。&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

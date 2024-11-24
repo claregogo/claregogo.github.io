@@ -2,6 +2,8 @@
 date: '2024-11-24T20:05:01+08:00'
 draft: false
 title: 'Hugo'
+tags: ["tutorial", "host hugo website on github"]
+
 ---
 以下是使用Markdown格式排版的Hugo制作网站教程：
 
